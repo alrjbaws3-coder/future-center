@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    font-family: 'Alexandria', 'Tajawal', 'Cairo', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Future Center Brand Color Palette & Portal Utilities */
+@theme {
+  --color-fc-sky: #32a1e6;
+  --color-fc-green: #72be20;
+  --color-fc-navy: #0c3250;
+  --color-fc-slate: #595e65;
+  --color-fc-blue: #0088ff;
+  --color-fc-card: #ffffff;
+}
+
+/* Scoped Portal Custom Utilities - Exactly matching reference design without affecting the rest of the app */
+@utility bg-fc-portal {
+  background-color: #edf5fc;
+  background-image: 
+    radial-gradient(circle at 80% 40%, rgba(224, 242, 254, 0.5) 0%, transparent 60%),
+    radial-gradient(circle at 20% 60%, rgba(240, 249, 255, 0.6) 0%, transparent 50%),
+    linear-gradient(135deg, #eef6fc 0%, #f6fafd 40%, #ebf4fb 80%, #f7fafd 100%);
+}
+
+@utility bg-fc-card-glass {
+  background-color: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+@utility bg-fc-input-glass {
+  background-color: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+@utility bg-fc-btn-gradient {
+  background: linear-gradient(135deg, #173860 0%, #204975 50%, #2a588b 100%);
+}
+
+@utility text-fc-headline-gradient {
+  background: linear-gradient(135deg, #0c3250 0%, #1c456e 50%, #255b8e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@utility shadow-fc-card {
+  box-shadow: 0 16px 40px rgba(15, 41, 66, 0.07);
+}
+
+@utility shadow-fc-btn {
+  box-shadow: 0 6px 18px rgba(23, 56, 96, 0.22);
+}
+
+/* Custom scrollbar for soothing UI */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

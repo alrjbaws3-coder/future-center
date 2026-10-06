@@ -1,0 +1,53 @@
+{
+  "programs": [
+    {
+      "id": "diploma-medium",
+      "title": "دبلوم المعهد المتوسط",
+      "tagline": "برنامج أكاديمي تطبيقي يضم اختصاصات تقنية وإدارية معتمدة",
+      "description": "برنامج تعليمي شامل يهدف إلى بناء قاعدة صلبة في العلوم الإدارية والتطبيقات التقنية المعاصرة بمناهج حديثة.",
+      "iconName": "GraduationCap",
+      "specialties": []
+    },
+    {
+      "id": "diploma-specialized",
+      "title": "الدبلوم التخصصي",
+      "tagline": "مسارات تخصصية متقدمة لتأهيل الكوادر لسوق العمل",
+      "description": "برامج تدريبية وتطبيقية متقدمة تركز على المهارات العملية المباشرة المطلوبة في سوق العمل الحديث.",
+      "iconName": "BookOpen",
+      "specialties": []
+    },
+    {
+      "id": "master",
+      "title": "الماجستير المهني",
+      "tagline": "دراسات مهنية عليا وتطوير تنفيذي متقدم",
+      "description": "برنامج تطوير قيادي وأكاديمي مخصص للمهنيين ورواد الأعمال الباحثين عن التميز والارتقاء المؤسسي.",
+      "iconName": "Sparkles",
+      "specialties": []
+    },
+    {
+      "id": "professional-qualification",
+      "title": "التأهيل والتخصص المهني",
+      "tagline": "دورات تأهيلية مكثفة وشهادات كفاءة مهنية",
+      "description": "مسارات تدريبية وتأهيلية مكثفة تواكب أحدث التقنيات والمعايير المهنية المعتمدة.",
+      "iconName": "Layers",
+      "specialties": []
+    }
+  ],
+  "students": [],
+  "shamCashRequests": [],
+  "notifications": [
+    {
+      "id": "notif-welcome",
+      "userId": "owner-1",
+      "title": "مرحباً بك في منصتك التعليمية",
+      "message": "تمت تهيئة قاعدة البيانات بنجاح في حالة نظيفة ومستقرة، يمكنك الآن إضافة الاختصاصات والمقررات والطلاب بحرية تامة.",
+      "type": "success",
+      "date": "2026-10-03",
+      "read": false
+    }
+  ],
+  "lastUpdatedAt": "2026-10-03T11:35:31.014Z",
+  "lastModifiedBy": "admin-clean-reset",
+  "accountId": "hasakahm@gmail.com",
+  "ownerEmail": "hasakahm@gmail.com"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "log-1790667619775-42",
+    "timestamp": "2026-09-29T07:40:19.775Z",
+    "account": "hasakahm@gmail.com",
+    "action": "استرجاع فوري للبيانات المعزولة",
+    "category": "restore",
+    "details": "تم استرجاع 16 مقرراً دراسياً بنجاح من المصدر (/app/applet/server-db-hasakahm.json) دون المساس بالبيانات القديمة",
+    "status": "success",
+    "userRole": "owner"
+  },
+  {
+    "id": "log-iso-1",
+    "timestamp": "2026-09-29T06:40:16.784Z",
+    "account": "hasakahm@gmail.com",
+    "action": "عزل قاعدة البيانات والجلسات الأكاديمية",
+    "category": "isolation",
+    "details": "تم عزل قاعدة البياناتserver-db-hasakahm.json بالكامل وتأمين 16 مقرراً و 15 محاضرة ضد التداخل.",
+    "status": "success",
+    "userRole": "owner"
+  },
+  {
+    "id": "log-sec-2",
+    "timestamp": "2026-09-29T07:10:16.784Z",
+    "account": "hasakahm@gmail.com",
+    "action": "فصل مساحات الطلاب عن صلاحيات المالك",
+    "category": "security",
+    "details": "منع دخول وضع الطالب من حجب مقررات المالك، وتفعيل التبديل الآمن المباشر.",
+    "status": "success",
+    "userRole": "owner"
+  }
+]

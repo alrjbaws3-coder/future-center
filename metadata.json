@@ -1,0 +1,8 @@
+{
+  "name": "مركز المستقبل - منصة التعليم الأكاديمي الإلكترونية",
+  "description": "المنصة الأكاديمية والمهنية المعتمدة لمركز المستقبل لإدارة المقررات والتخصصات والخدمات المالية للطلاب",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
